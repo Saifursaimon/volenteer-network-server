@@ -144,7 +144,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Volunteer Netwirk Server')
+    res.send('Volunteer Network Server')
 })
 
 app.listen(port, ()=> {
